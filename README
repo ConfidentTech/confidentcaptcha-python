@@ -1,0 +1,51 @@
+Python Library and Sample Code for Confident CAPTCHA
+version 20100621_PYTHON
+
+Thank you for downloading this library and sample code.  The included files
+are:
+ * README.TXT - This document
+ * captchalib.py - The Python library
+ * captchalib_config.py - Configuration template
+ * sample.py - The Python sample
+
+REQUIREMENTS
+ * Python 2.4, 2.5, or 2.6 is required.
+ * The page that renders the Confident CAPTCHA requires jQuery 1.4.2.
+
+USAGE
+
+ 1. Sign up for Confident CAPTCHA at:
+
+http://confidenttechnologies.com/purchase/CAPTCHA_signup.php
+
+ 2. Create an account at:
+
+https://login.confidenttechnologies.com
+
+ 3. Modify captchalib_config.py, filling in the API credentials from:
+
+https://login.confidenttechnologies.com/dashboard/sites/
+
+ 4. Run the sample code:
+
+python sample.py
+
+This will start the sample server on http://127.0.0.1:8001, and open a browser
+window to that address.
+
+ 5. Integrate the library into your code.  You need captchalib.py and a
+(customized) captchalib_config.py in your project.  Look at sample.py for 
+integration ideas.  Be sure to include jQuery in your page.
+
+Please send your questions and feedback to:
+
+https://login.confidenttechnologies.com/dashboard/contactus/general/
+
+VERSION HISTORY
+
+20100610_PYTHON - June 10th, 2010
+ * Original release
+
+20100621_PYTHON - June 21st, 2010
+ * Updated to work with API version 20100610
+ * Support the new namespaced HTML and JavaScript elements
